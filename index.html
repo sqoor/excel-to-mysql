@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Excel to MySQL</title>
+</head>
+<body>
+    <div>
+        <form method="POST">
+            
+            <label for="edu_type">Eduction Type</label>
+            <select name="edu_type" id="edu_type">
+                <option value=""></option>
+                <option value="un">un</option>
+                <option value="public">public</option>
+                <option value="private">private</option>
+            </select>
+            
+            <br>
+            <label for="type">Student Type</label>
+            <select name="type" id="type">
+                <option value=""></option>
+                <option value="student">student</option>
+                <option value="teacher">teacher</option>
+            </select>
+            
+            <br>
+            <label for="table_name">DB Table Name</label>
+            <input type="text" name="table_name" placeholder="darsak2_final.users...">
+            
+            <br>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
